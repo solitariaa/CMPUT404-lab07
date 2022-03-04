@@ -1,0 +1,29 @@
+Q0:
+https://github.com/Rain981012/cmput404lab7
+
+Q1:
+Flask is more flexible, you can define functions by yourself, and is suitable for small tasks
+Django prepares a lot of functions for you to use, it has its own ORM, and is suitable for big project.
+
+Q2:
+REST means Representational State Transfer. RESTful means presentation layer transfers its state by clients perform operations on resources.
+
+Q3:
+C: create, POST a new URI
+R: read, GET information from a URI
+U: update, PUT an existing URI
+D: delete, DELETE a URI
+
+Q4:
+1xx Informational Status Codes
+2xx Successful Status Codes
+3xx Redirect Status Codes
+4xx Client Error Status Codes
+5xx Server Error Status Codes
+
+Q5:
+XSS attacks, also named as Cross-Site Scripting attacks means put malicious command code to webpage through the loopholes left by webpage development. If there’s no verification when user get the data, the webpage is easy to have XSS attack and result in expose of information. 
+
+Q6:
+CORS means Cross-Origin Resource Sharing, it allows browser send requests to cross-source server.
+When there’s cookies or passwords saved on local, I need to implement CORS protection to restrict access authority of those private information.
